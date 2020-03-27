@@ -1,8 +1,7 @@
 <?php
 
 /**
- *
-Template Name: Sitemap
+ * Template Name: Sitemap
 */
 ?>
 

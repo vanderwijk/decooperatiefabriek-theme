@@ -1,8 +1,7 @@
 <?php
 
 /**
- *
-Template Name: Partners
+ * Template Name: Partners
 */
 ?>
 

@@ -1,8 +1,7 @@
 <?php
 
 /**
- *
-Template Name: Team - medewerkers
+ * Template Name: Team - medewerkers
 */
 ?>
 

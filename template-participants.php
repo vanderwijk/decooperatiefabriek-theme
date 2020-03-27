@@ -1,8 +1,7 @@
 <?php
 
 /**
- *
-Template Name: Deelnemers
+ * Template Name: Deelnemers
 */
 ?>
 

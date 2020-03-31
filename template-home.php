@@ -28,7 +28,7 @@
 <section class="call-to-action">
 	<div class="container-12">
 		<div class="grid-12">
-			<a href="/programma/rabo-online-masterclasses-risicomanagement/">Hulp bij de Coronacrisis. Rabo online masterClasses Risicomanagement.</a>
+			<a href="/programma/rabo-online-masterclasses-risicomanagement/">Hulp bij de Coronacrisis. Rabo online masterClasses Risicomanagement</a>
 		</div>
 	</div>
 </section>

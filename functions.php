@@ -190,7 +190,7 @@ function get_attachment_id_from_url( $attachment_url = '' ) {
 }
 
 function change_mime_icon($icon, $mime = null, $post_id = null){
-    $icon = str_replace(get_bloginfo('wpurl').'/wp-includes/images/crystal/', WP_CONTENT_URL . '/themes/decooperatiefabriek/images/icons/', $icon);
+    $icon = str_replace(get_bloginfo('wpurl').'/wp-includes/images/crystal/', WP_CONTENT_URL . '/themes/decooperatiefabriek-theme/images/icons/', $icon);
     return $icon;
 }
 //add_filter('wp_mime_type_icon', 'change_mime_icon');

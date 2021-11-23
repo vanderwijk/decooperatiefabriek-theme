@@ -25,7 +25,7 @@
 								<?php echo apply_filters( 'the_content', $meta['extra_content']); ?>
 							</div>
 						<?php }
-						if($meta_r['referentie']) { ?>
+						if (!empty($meta_r['referentie'])) { ?>
 							<h4>Referenties</h4>
 							<div id="references">
 								<?php // loop a set of field groups

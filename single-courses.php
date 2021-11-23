@@ -19,7 +19,7 @@
 					<div class="grid-9">
 						<h1><?php the_title(); ?></h1>
 						<?php the_content(); ?>
-						<?php if($meta['extra_content']) { ?>
+						<?php if (!empty($meta['extra_content'])) { ?>
 							<div id="course-info">
 								<p><bold class="header-bold"><?php echo $meta['extra_title']; ?></bold></p>
 								<?php echo apply_filters( 'the_content', $meta['extra_content']); ?>

@@ -25,7 +25,7 @@
 	</div>
 </section>
 
-<section class="call-to-action">
+<section class="call-to-action" style="display: none;">
 	<div class="container-12">
 		<div class="grid-12">
 			<a href="/programma/online-kennissessies-ondernemen-in-een-nieuwe-werkelijkheid/">Nieuwe online kennissessies voor ondernemers: Ondernemen in een nieuwe werkelijkheid</a>
@@ -57,10 +57,10 @@
 		<div class="grid-12" style="border-bottom: none; padding-bottom: 0;">
 			<h1 class="intro-h1"><?php echo $meta['video_title']; ?></h1>
 		</div>
-		<div class="grid-6">
+		<div class="grid-12">
 			<?php echo apply_filters( 'the_content', $meta['video_content']); ?>
 		</div>
-		<div class="grid-6">
+		<div class="grid-6" style="display:none;">
 			<a href="/videos-van-rabobanken/" class="video-thumbnail">
 				<img src="/wp-content/themes/decooperatiefabriek-theme/images/video-thumbnail.jpg" alt="Video afspelen">
 				<img class="icon-play" src="/wp-content/themes/decooperatiefabriek-theme/images/play-circle.svg" alt="Video afspelen">
@@ -82,7 +82,7 @@
 	<?php endwhile; endif;?>
 </section>
 
-<section>
+<section style="display: none;">
 	<div class="container-12">
 		<div class="grid-12 reviews customers">
 		<h2>Wat onze klanten zeggen:</h2>
@@ -187,7 +187,7 @@
 	</div>
 </section>
 
-<section id="news" class="section-news">
+<section id="news" class="section-news" style="display: none;">
 	<div class="container-12 news">
 		<div class="grid-12">
 			<h2>Actueel</h2>

@@ -26,7 +26,7 @@
 								<?php the_post_thumbnail('member_thumb'); ?>
 								<h4><?php the_title(); ?></h4>																        
 								<p class="title">
-									<?php if($meta['title']) { echo $meta['title']; } ?>
+									<?php if(!empty($meta['title'])) { echo $meta['title']; } ?>
 								</p>
 							</div>
 							<div class="participant-container grid-8 omega">

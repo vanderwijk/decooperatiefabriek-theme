@@ -17,6 +17,12 @@
 </head>
 
 <body <?php body_class() ?> >
+	
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3GLZ6T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	
 <?php $dcf_settings = get_option( "dcf_theme_settings" ); ?>
 <div id="wrapper">	
 	<div id="content">

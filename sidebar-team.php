@@ -27,12 +27,6 @@
 	  				  </span>
 	  			</a><?php
 	  		break;
-	  		case 'team_twitter';
-	  			?><a target="_blank" href="http://www.twitter.com/<?php echo $meta['team_twitter']; ?>">
-	  				  <span class="team-contact twitter">
-	  				  </span>
-	  			</a><?php
-	  		break;
 	  	}
 	  } ?>
 	  <div class="clear"></div>

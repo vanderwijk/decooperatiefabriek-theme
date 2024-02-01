@@ -36,7 +36,6 @@ Template Name: Pagina met video
 								<a class="addthis_button_linkedin"></a>
 								<a class="addthis_button_facebook"></a>								
 								<a class="addthis_button_pinterest_share"></a>
-								<a class="addthis_button_twitter"></a>
 								<?php // <a class="addthis_counter addthis_bubble_style"></a> ?>
 							</div>
 						</div>

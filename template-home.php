@@ -73,7 +73,7 @@
 			<div class="share">
 				<p>delen:</p>
 				<div class="addthis_toolbox addthis_default_style addthis_20x20_style">
-					<a class="addthis_button_facebook"></a><a class="addthis_button_twitter"></a><a class="addthis_button_linkedin"></a>
+					<a class="addthis_button_facebook"></a><a class="addthis_button_linkedin"></a>
 				</div>
 			</div>
 		</div>
@@ -122,8 +122,11 @@
 				</span>
 				<span class="rating">5</span>
 				<div class="description"><?php the_content(); ?></div>
-				<?php $avatar = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'thumbnail' );
-				$avatar_url = $avatar['0']; ?>
+				<?php 
+				$avatar = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'thumbnail' );
+				if ( is_array($avatar) ) {
+					$avatar_url = $avatar['0']; 
+				} ?>
 				<span class="reviewer" <?php if ( $avatar_url ) { ?> style="background-image: url( '<?php echo $avatar_url; ?> ');"<?php } ?>><?php the_title(); ?></span>
 			</div>
 		<?php endwhile;

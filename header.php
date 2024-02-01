@@ -1,15 +1,15 @@
 <!DOCTYPE HTML>
 <html lang="nl-NL" xml:lang="nl-NL">
 <head>
-    <title><?php wp_title(); ?></title>
-    <meta charset="<?php bloginfo( 'charset' ); ?>" />
-    <meta content="initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<title><?php wp_title(); ?></title>
+	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<meta content="initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/favicon.ico" />
 	
 	<!--[if lt IE 9]>
-	  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	
 	<?php wp_head(); ?>
@@ -33,26 +33,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div id="top-search">
 						<?php get_search_form(); ?>
 					</div>
-					<!--<div id="login">
-						<a href=" <?php echo wp_login_url(); ?> ">
-							<span>inloggen</span>
-						</a>
-					</div>-->
 					<div class="social">
-						<?php if($dcf_settings['dcf_contact_twitter']) { ?>
-							  <a target="_blank" href="http://www.twitter.com/<?php echo $dcf_settings['dcf_contact_twitter']; ?>">
-								  <span class="twitter">
-								  </span>
-							  </a>
-						<?php } ?>
-						&#8226;
 						<?php if($dcf_settings['dcf_contact_linkedin']) { ?>
-							  <a target="_blank" href="<?php echo $dcf_settings['dcf_contact_linkedin']; ?>">
-								  <span class="linkedin">
-								  </span>
-							  </a>
-						<?php }  ?>
-						
+							<a target="_blank" href="<?php echo $dcf_settings['dcf_contact_linkedin']; ?>">
+								<span class="linkedin"></span>
+							</a>
+						<?php } ?>
 					</div>
 				</div>
 			</div>

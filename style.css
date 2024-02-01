@@ -403,14 +403,6 @@ hr.devider {
     cursor: pointer;
 }
 
-#top .social .twitter {
-    float: left;
-    margin: 1px 9px 0 0;
-}
-
-#top .social .twitter:hover {
-    background-position: 0px -12px
-}
 
 #top .social .linkedin {
     background-position: -12px 0px;
@@ -1380,39 +1372,6 @@ footer {
     border-bottom: none
 }
 
-.tweet-userName {
-    /*padding-top:7px;font-size:12px;*/
-    line-height: 0;
-    margin-bottom: 10px;
-    /*margin-left:8px;*/
-    float: left;
-    min-width: 50px;
-}
-
-.twitter-avatar {
-    clear: both;
-    float: left;
-    padding: 6px 12px 2px 0;
-    width: 48px;
-    height: 48px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    padding: 0!important;
-    display: none;
-}
-
-.tweet-time {
-    float: left;
-    margin-top: -10px;
-    font-size: 11px;
-}
-
-.tweet-message {
-    word-wrap: break-word;
-    /*margin-top:-30px!important;margin-left:58px;*/
-}
-
 .footer-top .footer-program {
     line-height: 35px;
     margin: -4px 0 0 0;
@@ -2059,14 +2018,7 @@ footer {
     #contact-social span.team-contact:hover {
         background: url('images/team-contact.png') no-repeat 0 -20px
     }
-    .s-right .team-info span.twitter,
-    #contact-social span.twitter {
-        background: url('images/team-contact.png') no-repeat -20px 0
-    }
-    .s-right .team-info span.twitter:hover,
-    #contact-social span.twitter:hover {
-        background: url('images/team-contact.png') no-repeat -20px -20px
-    }
+
     .single-team #container h1 {
         margin-bottom: 0px;
         padding-bottom: 35px;

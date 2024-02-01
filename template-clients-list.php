@@ -43,7 +43,7 @@ Template Name: Klanten - Lijst
 							$i = 0;
 							if(isset($meta['repeating_textareas'])) {
 								foreach($meta['repeating_textareas'] as $area){
-								if($area['active'] && !empty($area['textarea'])) {
+									if(isset($area['active']) && $area['active'] && !empty($area['textarea'])) {
 								?>
 								<li class="client">
 									<div class="client-info grid-2 alpha">

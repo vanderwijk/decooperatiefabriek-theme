@@ -35,13 +35,6 @@ Template Name: Contact
 									  <p>De Coöperatie Fabriek</p>
 								  </a>
 							<?php } ?>
-							<?php if($dcf_settings['dcf_contact_twitter']) { ?>
-								<a target="_blank" href="http://www.twitter.com/<?php echo $dcf_settings['dcf_contact_twitter']; ?>">
-									  <span class="team-contact twitter">
-									  </span>
-									  <p><?php echo $dcf_settings['dcf_contact_twitter']; ?></p>
-								</a>
-							<?php } ?>
 						</div>
 						<div id="contact-address">
 							<h4>De Coöperatie Fabriek</h4>								
